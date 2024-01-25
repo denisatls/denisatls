@@ -35,4 +35,4 @@ IHost host = Host.CreateDefaultBuilder(args)
     .UseSerilog() // Use Serilog for logging
     .Build();
 
-host.Run();
+host.Run(); //yo
