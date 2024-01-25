@@ -1,0 +1,29 @@
+2024-01-18 22:37:12.381 +01:00 [INF] User profile is available. Using '/Users/denisdezan/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-01-18 22:37:12.464 +01:00 [INF] Now listening on: http://localhost:5145
+2024-01-18 22:37:12.465 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 22:37:12.465 +01:00 [INF] Hosting environment: Development
+2024-01-18 22:37:12.466 +01:00 [INF] Content root path: /Users/denisdezan/RiderProjects/CoinManager/CoinManager
+2024-01-18 22:37:12.794 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/ - -
+2024-01-18 22:37:12.839 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-01-18 22:37:12.843 +01:00 [INF] Executing endpoint '/Index'
+2024-01-18 22:37:12.874 +01:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-01-18 22:37:12.883 +01:00 [INF] Executing handler method CoinManager.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-01-18 22:37:12.887 +01:00 [INF] Executed handler method OnGet, returned result .
+2024-01-18 22:37:12.892 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-01-18 22:37:12.892 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-01-18 22:37:13.024 +01:00 [INF] Executed page /Index in 146.5945ms
+2024-01-18 22:37:13.024 +01:00 [INF] Executed endpoint '/Index'
+2024-01-18 22:37:13.027 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/ - - - 200 - text/html;+charset=utf-8 234.3539ms
+2024-01-18 22:37:13.032 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/lib/bootstrap/dist/css/bootstrap.min.css - -
+2024-01-18 22:37:13.032 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/lib/jquery/dist/jquery.min.js - -
+2024-01-18 22:37:13.032 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - -
+2024-01-18 22:37:13.033 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2024-01-18 22:37:13.048 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/denisdezan/RiderProjects/CoinManager/CoinManager/wwwroot/css/site.css'
+2024-01-18 22:37:13.049 +01:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/denisdezan/RiderProjects/CoinManager/CoinManager/wwwroot/lib/jquery/dist/jquery.min.js'
+2024-01-18 22:37:13.049 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/denisdezan/RiderProjects/CoinManager/CoinManager/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2024-01-18 22:37:13.049 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/denisdezan/RiderProjects/CoinManager/CoinManager/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2024-01-18 22:37:13.050 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 text/javascript 16.8872ms
+2024-01-18 22:37:13.050 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 18.4418ms
+2024-01-18 22:37:13.050 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - - - 200 341 text/css 18.2491ms
+2024-01-18 22:37:13.050 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/lib/jquery/dist/jquery.min.js - - - 200 89501 text/javascript 18.3640ms
+2024-01-18 22:37:33.406 +01:00 [INF] Application is shutting down...

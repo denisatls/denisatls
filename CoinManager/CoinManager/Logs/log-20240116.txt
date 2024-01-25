@@ -1,0 +1,321 @@
+2024-01-16 12:56:41.966 +01:00 [INF] User profile is available. Using '/Users/denisdezan/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-01-16 12:56:42.037 +01:00 [INF] Now listening on: http://localhost:5145
+2024-01-16 12:56:42.038 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-16 12:56:42.038 +01:00 [INF] Hosting environment: Development
+2024-01-16 12:56:42.038 +01:00 [INF] Content root path: /Users/denisdezan/RiderProjects/CoinManager/CoinManager
+2024-01-16 12:56:42.495 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/ - -
+2024-01-16 12:56:42.527 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-01-16 12:56:42.530 +01:00 [INF] Executing endpoint '/Index'
+2024-01-16 12:56:42.551 +01:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-01-16 12:56:42.558 +01:00 [INF] Executing handler method CoinManager.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-01-16 12:56:42.561 +01:00 [INF] Executed handler method OnGet, returned result .
+2024-01-16 12:56:42.565 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-01-16 12:56:42.566 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-01-16 12:56:42.676 +01:00 [INF] Executed page /Index in 123.1549ms
+2024-01-16 12:56:42.677 +01:00 [INF] Executed endpoint '/Index'
+2024-01-16 12:56:42.679 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/ - - - 200 - text/html;+charset=utf-8 185.5210ms
+2024-01-16 12:56:42.686 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - -
+2024-01-16 12:56:42.688 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/lib/bootstrap/dist/css/bootstrap.min.css - -
+2024-01-16 12:56:42.688 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/lib/jquery/dist/jquery.min.js - -
+2024-01-16 12:56:42.689 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - -
+2024-01-16 12:56:42.689 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2024-01-16 12:56:42.705 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/denisdezan/RiderProjects/CoinManager/CoinManager/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2024-01-16 12:56:42.705 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/denisdezan/RiderProjects/CoinManager/CoinManager/wwwroot/css/site.css'
+2024-01-16 12:56:42.705 +01:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/denisdezan/RiderProjects/CoinManager/CoinManager/wwwroot/js/site.js'
+2024-01-16 12:56:42.708 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - - - 200 226 text/javascript 18.8770ms
+2024-01-16 12:56:42.708 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 text/javascript 19.0652ms
+2024-01-16 12:56:42.706 +01:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/denisdezan/RiderProjects/CoinManager/CoinManager/wwwroot/lib/jquery/dist/jquery.min.js'
+2024-01-16 12:56:42.708 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/css/site.css?v=r22M7xOahcMheWCkoVof2Nt7pQmj7mMSFKTei-SfmQ0 - - - 200 341 text/css 22.2794ms
+2024-01-16 12:56:42.707 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/denisdezan/RiderProjects/CoinManager/CoinManager/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2024-01-16 12:56:42.709 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 20.5765ms
+2024-01-16 12:56:42.708 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/lib/jquery/dist/jquery.min.js - - - 200 89501 text/javascript 20.1927ms
+2024-01-16 12:56:42.763 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/favicon.ico - -
+2024-01-16 12:56:42.766 +01:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: '/Users/denisdezan/RiderProjects/CoinManager/CoinManager/wwwroot/favicon.ico'
+2024-01-16 12:56:42.766 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/favicon.ico - - - 200 5430 image/x-icon 2.7240ms
+2024-01-16 12:56:44.059 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/UpdateCoinStatus - -
+2024-01-16 12:56:44.061 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:56:44.074 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:56:44.132 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetAsync - ModelState is "Valid"
+2024-01-16 12:56:44.305 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-01-16 12:56:44.305 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-01-16 12:56:44.305 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-01-16 12:56:44.328 +01:00 [INF] Executed page /UpdateCoinStatus in 253.2884ms
+2024-01-16 12:56:44.328 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:56:44.330 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/UpdateCoinStatus - - - 200 - text/html;+charset=utf-8 271.2301ms
+2024-01-16 12:56:46.286 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=1&statusFilter=active - -
+2024-01-16 12:56:46.286 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:56:46.287 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:56:46.290 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:56:46.324 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:56:46.325 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:56:46.395 +01:00 [INF] Executed page /UpdateCoinStatus in 108.7474ms
+2024-01-16 12:56:46.396 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:56:46.396 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=1&statusFilter=active - -
+2024-01-16 12:56:46.396 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:56:46.396 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:56:46.396 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=1&statusFilter=active - - - 200 - application/json;+charset=utf-8 110.8005ms
+2024-01-16 12:56:46.397 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:56:46.398 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:56:46.398 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:56:46.399 +01:00 [INF] Executed page /UpdateCoinStatus in 2.3975ms
+2024-01-16 12:56:46.399 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:56:46.399 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=1&statusFilter=active - - - 200 - application/json;+charset=utf-8 2.9743ms
+2024-01-16 12:56:49.426 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=8&statusFilter=active - -
+2024-01-16 12:56:49.426 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:56:49.426 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:56:49.427 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:56:49.430 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:56:49.431 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:56:49.432 +01:00 [INF] Executed page /UpdateCoinStatus in 5.2392ms
+2024-01-16 12:56:49.432 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:56:49.433 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=8&statusFilter=active - - - 200 - application/json;+charset=utf-8 6.4849ms
+2024-01-16 12:56:49.438 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=8&statusFilter=active - -
+2024-01-16 12:56:49.438 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:56:49.438 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:56:49.439 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:56:49.442 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:56:49.443 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:56:49.443 +01:00 [INF] Executed page /UpdateCoinStatus in 4.41ms
+2024-01-16 12:56:49.443 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:56:49.443 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=8&statusFilter=active - - - 200 - application/json;+charset=utf-8 4.8559ms
+2024-01-16 12:57:06.052 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/ - -
+2024-01-16 12:57:06.052 +01:00 [INF] Executing endpoint '/Index'
+2024-01-16 12:57:06.053 +01:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-01-16 12:57:06.054 +01:00 [INF] Executing handler method CoinManager.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-01-16 12:57:06.054 +01:00 [INF] Executed handler method OnGet, returned result .
+2024-01-16 12:57:06.054 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-01-16 12:57:06.054 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-01-16 12:57:06.056 +01:00 [INF] Executed page /Index in 3.1181ms
+2024-01-16 12:57:06.056 +01:00 [INF] Executed endpoint '/Index'
+2024-01-16 12:57:06.056 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/ - - - 200 - text/html;+charset=utf-8 4.5712ms
+2024-01-16 12:57:08.444 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/ - -
+2024-01-16 12:57:08.445 +01:00 [INF] Executing endpoint '/Index'
+2024-01-16 12:57:08.446 +01:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-01-16 12:57:08.446 +01:00 [INF] Executing handler method CoinManager.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-01-16 12:57:08.446 +01:00 [INF] Executed handler method OnGet, returned result .
+2024-01-16 12:57:08.447 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-01-16 12:57:08.447 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-01-16 12:57:08.454 +01:00 [INF] Executed page /Index in 7.7672ms
+2024-01-16 12:57:08.454 +01:00 [INF] Executed endpoint '/Index'
+2024-01-16 12:57:08.454 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/ - - - 200 - text/html;+charset=utf-8 9.7518ms
+2024-01-16 12:57:10.914 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/UpdateCoinStatus - -
+2024-01-16 12:57:10.914 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:10.915 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:57:10.915 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetAsync - ModelState is "Valid"
+2024-01-16 12:57:10.918 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-01-16 12:57:10.918 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-01-16 12:57:10.918 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-01-16 12:57:10.921 +01:00 [INF] Executed page /UpdateCoinStatus in 6.2108ms
+2024-01-16 12:57:10.921 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:10.922 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/UpdateCoinStatus - - - 200 - text/html;+charset=utf-8 7.3564ms
+2024-01-16 12:57:14.191 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=2&statusFilter=active - -
+2024-01-16 12:57:14.192 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:14.192 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:57:14.193 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:57:14.195 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:57:14.197 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:57:14.198 +01:00 [INF] Executed page /UpdateCoinStatus in 5.7075ms
+2024-01-16 12:57:14.198 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:14.198 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=2&statusFilter=active - - - 200 - application/json;+charset=utf-8 6.6809ms
+2024-01-16 12:57:14.212 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=2&statusFilter=active - -
+2024-01-16 12:57:14.212 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:14.212 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:57:14.213 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:57:14.214 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:57:14.214 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:57:14.214 +01:00 [INF] Executed page /UpdateCoinStatus in 2.2302ms
+2024-01-16 12:57:14.214 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:14.214 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=2&statusFilter=active - - - 200 - application/json;+charset=utf-8 2.9748ms
+2024-01-16 12:57:18.747 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=3&statusFilter=active - -
+2024-01-16 12:57:18.750 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:18.750 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:57:18.753 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:57:18.766 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:57:18.767 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:57:18.768 +01:00 [INF] Executed page /UpdateCoinStatus in 17.9178ms
+2024-01-16 12:57:18.768 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:18.769 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=3&statusFilter=active - - - 200 - application/json;+charset=utf-8 22.0485ms
+2024-01-16 12:57:18.770 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=3&statusFilter=active - -
+2024-01-16 12:57:18.770 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:18.770 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:57:18.771 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:57:18.773 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:57:18.774 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:57:18.774 +01:00 [INF] Executed page /UpdateCoinStatus in 3.395ms
+2024-01-16 12:57:18.774 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:18.774 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=3&statusFilter=active - - - 200 - application/json;+charset=utf-8 4.1082ms
+2024-01-16 12:57:21.896 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=1&statusFilter=active - -
+2024-01-16 12:57:21.898 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:21.898 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:57:21.900 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:57:21.918 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:57:21.918 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:57:21.918 +01:00 [INF] Executed page /UpdateCoinStatus in 19.3897ms
+2024-01-16 12:57:21.918 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:21.918 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=1&statusFilter=active - - - 200 - application/json;+charset=utf-8 21.8105ms
+2024-01-16 12:57:21.919 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=1&statusFilter=active - -
+2024-01-16 12:57:21.919 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:21.919 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:57:21.920 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:57:21.921 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:57:21.922 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:57:21.922 +01:00 [INF] Executed page /UpdateCoinStatus in 2.1309ms
+2024-01-16 12:57:21.922 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:21.922 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=1&statusFilter=active - - - 200 - application/json;+charset=utf-8 2.6244ms
+2024-01-16 12:57:30.001 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=3&statusFilter=active - -
+2024-01-16 12:57:30.007 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:30.009 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:57:30.011 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:57:30.014 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:57:30.015 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:57:30.015 +01:00 [INF] Executed page /UpdateCoinStatus in 5.2467ms
+2024-01-16 12:57:30.015 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:30.016 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=3&statusFilter=active - - - 200 - application/json;+charset=utf-8 14.6307ms
+2024-01-16 12:57:30.017 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=3&statusFilter=active - -
+2024-01-16 12:57:30.017 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:30.017 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:57:30.017 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:57:30.018 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:57:30.018 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:57:30.018 +01:00 [INF] Executed page /UpdateCoinStatus in 1.2608ms
+2024-01-16 12:57:30.018 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:30.018 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=3&statusFilter=active - - - 200 - application/json;+charset=utf-8 1.9253ms
+2024-01-16 12:57:32.609 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=2&statusFilter=active - -
+2024-01-16 12:57:32.609 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:32.610 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:57:32.611 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:57:32.613 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:57:32.613 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:57:32.614 +01:00 [INF] Executed page /UpdateCoinStatus in 4.0002ms
+2024-01-16 12:57:32.614 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:32.614 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=2&statusFilter=active - - - 200 - application/json;+charset=utf-8 5.3375ms
+2024-01-16 12:57:32.616 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=2&statusFilter=active - -
+2024-01-16 12:57:32.616 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:32.616 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 12:57:32.617 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 12:57:32.618 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 12:57:32.618 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 12:57:32.618 +01:00 [INF] Executed page /UpdateCoinStatus in 1.6485ms
+2024-01-16 12:57:32.618 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 12:57:32.618 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=2&statusFilter=active - - - 200 - application/json;+charset=utf-8 2.2946ms
+2024-01-16 12:59:46.515 +01:00 [INF] Application is shutting down...
+2024-01-16 14:11:17.969 +01:00 [INF] User profile is available. Using '/Users/denisdezan/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-01-16 14:11:18.039 +01:00 [INF] Now listening on: http://localhost:5145
+2024-01-16 14:11:18.041 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-16 14:11:18.041 +01:00 [INF] Hosting environment: Development
+2024-01-16 14:11:18.041 +01:00 [INF] Content root path: /Users/denisdezan/RiderProjects/CoinManager/CoinManager
+2024-01-16 14:11:18.526 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/ - -
+2024-01-16 14:11:18.550 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-01-16 14:11:18.552 +01:00 [INF] Executing endpoint '/Index'
+2024-01-16 14:11:18.571 +01:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-01-16 14:11:18.578 +01:00 [INF] Executing handler method CoinManager.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-01-16 14:11:18.581 +01:00 [INF] Executed handler method OnGet, returned result .
+2024-01-16 14:11:18.585 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-01-16 14:11:18.586 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-01-16 14:11:18.696 +01:00 [INF] Executed page /Index in 122.0542ms
+2024-01-16 14:11:18.696 +01:00 [INF] Executed endpoint '/Index'
+2024-01-16 14:11:18.698 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/ - - - 200 - text/html;+charset=utf-8 174.2189ms
+2024-01-16 14:11:20.801 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/UpdateCoinStatus - -
+2024-01-16 14:11:20.808 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 14:11:20.821 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 14:11:20.876 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetAsync - ModelState is "Valid"
+2024-01-16 14:11:21.063 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-01-16 14:11:21.063 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-01-16 14:11:21.063 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-01-16 14:11:21.088 +01:00 [INF] Executed page /UpdateCoinStatus in 266.3396ms
+2024-01-16 14:11:21.088 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 14:11:21.092 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/UpdateCoinStatus - - - 200 - text/html;+charset=utf-8 291.8301ms
+2024-01-16 14:11:25.748 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=6&statusFilter=active - -
+2024-01-16 14:11:25.755 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 14:11:25.756 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 14:11:25.767 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 14:11:25.815 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 14:11:25.816 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 14:11:25.895 +01:00 [INF] Executed page /UpdateCoinStatus in 138.7115ms
+2024-01-16 14:11:25.895 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 14:11:25.896 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=6&statusFilter=active - -
+2024-01-16 14:11:25.896 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 14:11:25.896 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 14:11:25.896 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=6&statusFilter=active - - - 200 - application/json;+charset=utf-8 148.7019ms
+2024-01-16 14:11:25.897 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 14:11:25.898 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 14:11:25.899 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 14:11:25.899 +01:00 [INF] Executed page /UpdateCoinStatus in 2.4203ms
+2024-01-16 14:11:25.899 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 14:11:25.899 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=6&statusFilter=active - - - 200 - application/json;+charset=utf-8 3.1932ms
+2024-01-16 14:11:59.408 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=7&statusFilter=active - -
+2024-01-16 14:11:59.409 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 14:11:59.410 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 14:11:59.412 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 14:11:59.416 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 14:11:59.417 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 14:11:59.417 +01:00 [INF] Executed page /UpdateCoinStatus in 6.1386ms
+2024-01-16 14:11:59.417 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 14:11:59.417 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=7&statusFilter=active - - - 200 - application/json;+charset=utf-8 9.6033ms
+2024-01-16 14:11:59.418 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=7&statusFilter=active - -
+2024-01-16 14:11:59.418 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 14:11:59.418 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 14:11:59.419 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 14:11:59.420 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 14:11:59.420 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 14:11:59.420 +01:00 [INF] Executed page /UpdateCoinStatus in 1.8514ms
+2024-01-16 14:11:59.420 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 14:11:59.421 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=7&statusFilter=active - - - 200 - application/json;+charset=utf-8 2.4640ms
+2024-01-16 14:12:01.889 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=8&statusFilter=active - -
+2024-01-16 14:12:01.889 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 14:12:01.889 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 14:12:01.890 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 14:12:01.892 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 14:12:01.893 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 14:12:01.893 +01:00 [INF] Executed page /UpdateCoinStatus in 3.599ms
+2024-01-16 14:12:01.893 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 14:12:01.894 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=8&statusFilter=active - - - 200 - application/json;+charset=utf-8 4.9917ms
+2024-01-16 14:12:01.896 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=8&statusFilter=active - -
+2024-01-16 14:12:01.896 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 14:12:01.896 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 14:12:01.897 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 14:12:01.898 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 14:12:01.898 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 14:12:01.898 +01:00 [INF] Executed page /UpdateCoinStatus in 1.3133ms
+2024-01-16 14:12:01.898 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 14:12:01.898 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=8&statusFilter=active - - - 200 - application/json;+charset=utf-8 1.6727ms
+2024-01-16 14:12:12.157 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=6&statusFilter=active - -
+2024-01-16 14:12:12.158 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 14:12:12.158 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 14:12:12.159 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 14:12:12.161 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 14:12:12.161 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 14:12:12.161 +01:00 [INF] Executed page /UpdateCoinStatus in 2.7538ms
+2024-01-16 14:12:12.161 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 14:12:12.162 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=6&statusFilter=active - - - 200 - application/json;+charset=utf-8 4.3794ms
+2024-01-16 14:12:12.162 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=6&statusFilter=active - -
+2024-01-16 14:12:12.163 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 14:12:12.163 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 14:12:12.163 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetCoinsAsync - ModelState is "Valid"
+2024-01-16 14:12:12.164 +01:00 [INF] Executed handler method OnGetCoinsAsync, returned result Microsoft.AspNetCore.Mvc.JsonResult.
+2024-01-16 14:12:12.164 +01:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[CoinManager.Models.TopCoin, CoinManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-16 14:12:12.164 +01:00 [INF] Executed page /UpdateCoinStatus in 1.117ms
+2024-01-16 14:12:12.164 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 14:12:12.164 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=6&statusFilter=active - - - 200 - application/json;+charset=utf-8 1.8588ms
+2024-01-16 14:12:27.938 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5145/UpdateCoinStatus?handler=UpdateCoinStatus application/x-www-form-urlencoded 268
+2024-01-16 14:12:27.938 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 14:12:27.939 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 14:12:27.949 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnPostUpdateCoinStatusAsync - ModelState is "Valid"
+2024-01-16 14:12:27.951 +01:00 [INF] Updating coin status: ExchangeId=6, CoinName=USDC-USDT, IsActive=False
+2024-01-16 14:12:27.983 +01:00 [INF]   await _procedures.InsertChangeAsync(); executed 
+2024-01-16 14:12:27.983 +01:00 [INF] Executed handler method OnPostUpdateCoinStatusAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2024-01-16 14:12:27.984 +01:00 [INF] Executing RedirectToPageResult, redirecting to null.
+2024-01-16 14:12:27.987 +01:00 [INF] Executed page /UpdateCoinStatus in 48.0676ms
+2024-01-16 14:12:27.987 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 14:12:27.987 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5145/UpdateCoinStatus?handler=UpdateCoinStatus application/x-www-form-urlencoded 268 - 302 0 - 49.0745ms
+2024-01-16 14:12:27.990 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5145/UpdateCoinStatus?selectedExchangeId=6 - -
+2024-01-16 14:12:27.990 +01:00 [INF] Executing endpoint '/UpdateCoinStatus'
+2024-01-16 14:12:27.990 +01:00 [INF] Route matched with {page = "/UpdateCoinStatus"}. Executing page /UpdateCoinStatus
+2024-01-16 14:12:27.992 +01:00 [INF] Executing handler method CoinManager.Pages.UpdateCoinStatus.OnGetAsync - ModelState is "Valid"
+2024-01-16 14:12:27.995 +01:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-01-16 14:12:27.995 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-01-16 14:12:27.995 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-01-16 14:12:27.997 +01:00 [INF] Executed page /UpdateCoinStatus in 6.904ms
+2024-01-16 14:12:27.997 +01:00 [INF] Executed endpoint '/UpdateCoinStatus'
+2024-01-16 14:12:27.997 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5145/UpdateCoinStatus?selectedExchangeId=6 - - - 200 - text/html;+charset=utf-8 7.4819ms
+2024-01-16 14:19:45.282 +01:00 [INF] Application is shutting down...

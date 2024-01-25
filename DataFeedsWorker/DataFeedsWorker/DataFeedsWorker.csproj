@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-DataFeedsWorker-CDF81687-401E-4A8C-ADAB-A704560633FE</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.1.24" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1"/>
+        <PackageReference Include="Npgsql" Version="8.0.1" />
+        <PackageReference Include="prometheus-net" Version="8.2.1" />
+        <PackageReference Include="Serilog" Version="3.1.2-dev-02097" />
+        <PackageReference Include="Serilog.Extensions.Hosting" Version="8.0.0" />
+        <PackageReference Include="Serilog.Extensions.Logging" Version="8.0.1-dev-10370" />
+        <PackageReference Include="Serilog.Settings.AppSettings" Version="2.2.3-dev-00066" />
+        <PackageReference Include="Serilog.Settings.Configuration" Version="8.0.1-dev-00561" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
+        <PackageReference Include="Serilog.Sinks.File" Version="5.0.1-dev-00968" />
+        <PackageReference Include="YamlDotNet" Version="13.7.1" />
+    </ItemGroup>
+</Project>

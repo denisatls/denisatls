@@ -1,0 +1,149 @@
+@page
+@model CoinManager.Pages.UpdateCoinStatus
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Coin</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    @if (!string.IsNullOrEmpty(Model.StatusMessage))
+    {
+        <div class="alert alert-info">@Model.StatusMessage</div>
+    }
+    
+   <form id="deleteForm" method="post" asp-page-handler="UpdateCoinStatus">
+        <input type="hidden" id="formExchangeId" name="exchangeId" />
+        <input type="hidden" id="formCoinName" name="coinName" />
+        <input type="hidden" id="formIsActive" name="isActive" />
+        
+        <div class="form-group">
+         <label>Chose coin status :</label>
+            <div>
+                <label>
+                    <input type="radio" name="statusFilter" value="active" onchange="updateCoins()" checked>
+                    Active
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="statusFilter" value="disabled" onchange="updateCoins()">
+                    Disabled
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="exchange">Exchange:</label>
+            <select id="exchange" name="exchange" asp-items="@(new SelectList(Model.Exchanges, "Exchange_id", "Name"))" class="form-control" onchange="updateCoins()">
+                <option value="">-- Select Exchange --</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="coin">Coin:</label>
+            <select id="coin" name="coin" class="form-control">
+                <option value="">-- Select Coin --</option>
+                <!-- Coins will be populated via JavaScript -->
+            </select>
+        </div>
+
+        <button type="button" id="deleteBtn" class="btn btn-primary" onclick="showConfirmModal()">Update Coin Status</button>
+        <button type="button" class="btn btn-secondary" name="action" value="cancel">Cancel</button>
+    </form>
+</div>
+
+<div class="modal" id="confirmModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Confirm Action</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to change status of:  <span id="modalCoin">coin</span> from <span id="modalExchange">exchange</span>?
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-danger" onclick="confirmDeletion()">Confirm</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<script>
+function updateCoins() {
+    var exchangeId = document.getElementById('exchange').value;
+    var statusFilter = document.querySelector('input[name="statusFilter"]:checked').value;
+
+    // Updated the fetch call to include the base path `/coinmanager/`
+    var fetchUrl = '/coinmanager/UpdateCoinStatus?handler=Coins&exchangeId=' + exchangeId + '&statusFilter=' + statusFilter;
+
+    if (exchangeId) {
+        fetch(fetchUrl)
+            .then(response => response.json())
+            .then(data => {
+                var coinSelect = document.getElementById('coin');
+                coinSelect.innerHTML = '<option value="">-- Select Coin --</option>';
+                data.forEach(coin => {
+                    var option = new Option(coin.symbol, coin.tradeseries_id);
+                    option.setAttribute('data-active', coin.active); // Set data-active attribute
+                    coinSelect.add(option);
+                });
+            })
+            .catch(error => console.error('Unable to load coins:', error));
+    } else {
+        document.getElementById('coin').innerHTML = '<option value="">-- Select Coin --</option>';
+    }
+}
+
+
+function showConfirmModal() {
+    var exchangeSelect = document.getElementById('exchange');
+    var coinSelect = document.getElementById('coin');
+    var exchange = exchangeSelect.options[exchangeSelect.selectedIndex].text;
+    var coin = coinSelect.options[coinSelect.selectedIndex].text;
+    
+    if(coinSelect.selectedIndex === -1 || coinSelect.value === '') {
+        alert('Please select a coin first.');
+        return;
+    }
+
+    var isActive = coinSelect.options[coinSelect.selectedIndex].getAttribute('data-active') === 'true';
+
+    // Update the modal text elements
+    document.getElementById('modalExchange').textContent = exchange;
+    document.getElementById('modalCoin').textContent = coin;
+
+    // Update form values for submission
+    document.getElementById('formExchangeId').value = exchangeSelect.value;
+    document.getElementById('formCoinName').value = coin;
+    document.getElementById('formIsActive').value = !isActive;
+
+    // Display the modal
+    $('#confirmModal').modal('show');
+}
+
+
+    function confirmDeletion() {
+        document.getElementById('deleteForm').submit();
+        $('#confirmModal').modal('hide');
+    }
+
+    document.getElementById('exchange').addEventListener('change', updateCoins);
+
+    $(document).ready(function() {
+        $('#deleteBtn').click(showConfirmModal);
+        $('#confirmModal .btn-secondary').click(function() {
+            $('#confirmModal').modal('hide');
+        });
+    });
+</script>
+</body>
+</html>
